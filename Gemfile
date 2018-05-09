@@ -51,3 +51,36 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'popper_js', '~> 1.12.3'
+gem 'bootstrap', '~> 4.0.0'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+  gem 'factory_bot_rails'
+  gem 'pry'
+end
+
+gem 'will_paginate', '>= 3.1'
+gem 'will_paginate-bootstrap4'
+gem 'simple_form'
+gem 'font-awesome-rails'
+gem 'devise'
+gem 'geocoder'
+gem 'figaro'
+gem 'carrierwave', '~> 1.0'
+gem 'fog-aws'
+gem 'mini_magick'
+gem 'carrierwave-aws'
+gem 'stripe'
+gem 'ranked-model'
+gem 'jquery-ui-rails'
+gem 'simple_calendar', '~> 2.0'
+gem 'haml'
+gem 'friendly_id', '~> 5.1.0'
+gem 'owlcarousel2'
+gem 'high_voltage', '~> 3.1'
